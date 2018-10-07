@@ -5,10 +5,16 @@
 <% } else if (post.title){ %>
   <% if (index){ %>
     <h1 itemprop="name">
+    <% if(post.type!= '转发'&& post.type!= '转'){ %>
+    <span class='article-type type-1 float-left' > 原</span> 
+    <% } else { %>
+    <span class='article-type type-2 float-left' > 转</span> 
+    <% } %>
       <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%= post.title %></a>
     </h1>
   <% } else { %>
     <h1 class="<%= class_name %>" itemprop="name">
+    <span class='article-type type-1 float-left' > 原</span> 
       <%= post.title %>
     </h1>
   <% } %>

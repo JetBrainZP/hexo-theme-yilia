@@ -2,15 +2,14 @@
 
 menu:
   主页: /
-  摄影: /photos/
   归档: /archives/
-  诗词: /tags/poetry
+  标签云: /tags/
   #javascript: /tags/Javascript
   #作品: /works/
 
 # SubNav
 subnav:
-  github: "https://github.com/whyour"
+  github: "https://github.com/JetBrainZP"
   #weibo: "#"
   rss: /atom.xml
   #zhihu: "#"
@@ -21,7 +20,7 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  mail: "mailto:imwhyour@gmail.com"
+  mail: "wuque201888qq.com"
   #facebook: "#"
   #google: "112887490923160312595"
   #twitter: "#"
@@ -38,7 +37,7 @@ root: /
 
 auto_excerpt:
     enable: true
-    lines: 3
+    lines: 4
 
 # 文章太长，截断按钮文字
 excerpt_link: 查看更多
@@ -53,7 +52,7 @@ open_in_new: false
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 0
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢你请我吃饮料'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay:
 # 微信二维码图片地址
@@ -70,8 +69,8 @@ toc_empty_wording: '目录，不存在的…'
 # 是否有快速回到顶部的按钮
 top: true
 
-# Miscellaneous
-baidu_analytics: '076da1b6e2c3047b2e7d6ed3e54cb180'
+# Miscellaneous  站点统计
+baidu_analytics: 'e49ad0d95a7614a0d46e77ef9b8131a3'
 google_analytics: 'UA-97038102-2'
 favicon: /uploads/favicon.ico
 
@@ -123,8 +122,9 @@ hyper_id: false
 
 isso: false
 
+# TODO 需要修改
 disqusapi:
-  enable: true
+  enable: false
   forum: 'whyour'
   site: 'https://ninesix.cc'
   api: 'https://disqus.ninesix.cc'
@@ -134,14 +134,14 @@ disqusapi:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  header:
+  header: #279ADB
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  slider: 'linear-gradient(200deg,#7fa5bb,#80bcd1)'
 
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -150,7 +150,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: false
   aboutme: '关于我'
 
 friends:

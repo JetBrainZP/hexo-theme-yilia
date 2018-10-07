@@ -171,7 +171,7 @@ function init() {
 			app.$set('isComplete', true);
         })
     }
-    diySubtile();
+    // diySubtile(); TODO 不知道是什么东西
 
 	// 隐藏
 	document.querySelector('#container').onclick = (e) => {

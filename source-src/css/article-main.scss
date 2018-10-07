@@ -97,8 +97,30 @@
     color: #969696;
     font-size: 12px;
   }
-}
 
+}
+span.article-type{
+  display: inline-block;
+  margin: 4px;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 50%;
+
+}
+span.article-type.type-1 {
+  color: #ca0c16;
+  border: 1px solid #d05a60;
+}
+span.article-type.type-2 {
+  color: #5cb85c;
+  border: 1px solid #61c324;
+}
+span.float-left {
+  float: left !important;
+}
 .article-meta{
   width: 150px;
   font-size: 14;
